@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    color: #32325f;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #32325f;
+}
+
+.hero {
+    padding-top: 80px;
+    padding-bottom: 190px;
+    background-color: #f4f5f7;
+}
+
+.container {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1140px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.media img {
+    width: 27px;
+    height: 27px;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: 700;
+    color: #95989a;
+}
+
+
+/* Закрыли header сайта */
+
+.sale {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 160px;
+}
+
+.info {
+    width: 50%;
+}
+
+.subtitle {
+    margin-bottom: 15px;
+}
+
+.title {
+    margin-bottom: 25px;
+}
+
+.description {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #32325f;
+}
+
+.price-tag {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #32325f;
+}
+
+.price {
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-weight: 400;
+    color: #525f7f;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 20px 30px;
+    box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.btn-success {
+    background-color: #2dce89;
+}
+
+.btn-primary {
+    background-color: #5e72e4;
+}
+
+
+/* Закрыли первый блок */
+
+.about {
+    padding: 90px 0 130px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #525f7f;
+}
+
+.about h2.subtitle {
+    margin-bottom: 15px;
+}
+
+.about h2.title {
+    margin-bottom: 100px;
+}
+
+.staff {
+    display: flex;
+    justify-content: space-between;
+}
+
+.staff div {
+    margin-right: 3%;
+}
+
+.item img {
+    padding-bottom: 40px;
+}
+
+.staff:not(:last-child) {
+    margin: 0;
+}
+
+
+/* Закрыли второй блок */
+
+.people {
+    background-color: #f4f5f7;
+    padding-top: 90px;
+    padding-bottom: 115px;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 550px;
+    flex-wrap: wrap;
+    margin-top: 65px;
+}
+
+
+/* Закрыли третий блок */
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot div {
+    margin-right: 1%;
+}
+
+.footer {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: #32325f;
+}
+
+.title-footer {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.paragraph {
+    padding-top: 35px;
+}
+
+.row {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
